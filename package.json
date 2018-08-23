@@ -10,8 +10,26 @@
     "mocha": "^5.2.0"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec"
+    "test": "mocha --reporter spec"
   },
   "author": "Michael Ziegler",
-  "license": "ISC"
+  "license": "MIT",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mziegle/kata_stack.git"
+  },
+  "keywords": [
+    "kata",
+    "stack",
+    "mocha",
+    "chai",
+    "nodejs"
+  ],
+  "bugs": {
+    "url": "https://github.com/mziegle/kata_stack/issues"
+  },
+  "homepage": "https://github.com/mziegle/kata_stack#readme"
 }
